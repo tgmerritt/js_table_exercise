@@ -1,6 +1,6 @@
 function addPerson() {
-  var first_name = prompt("Please enter the first name of a new person.  OK to accept or cancel to exit dialog.");
-  var last_name = prompt("Please enter the last name of a new person.");
+  var first_name  = prompt("Please enter the first name of a new person.  OK to accept or cancel to exit dialog.");
+  var last_name   = prompt("Please enter the last name of a new person.");
   var status_name = prompt("Please enter the status of a new person.");
 
   var table       = document.getElementById("the_table");
